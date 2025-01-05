@@ -71,7 +71,7 @@ Para detener el sistema, interrumpir los procesos en las terminales correspondie
 ### Archivos de configuración
 
 #### Front-end
-El archivo `.env` en `TFG-CoordinacionTrabajosAcademicos/trabajos-academicos/frontend` contiene configuraciones importantes como:
+Debe de crearse un archivo `.env` en `TFG-CoordinacionTrabajosAcademicos/trabajos-academicos/frontend`, y debe de contener las siguientes configuraciones:
 
 - **VITE_PATH**: Punto de acceso de la aplicación cliente.
 - **VITE_API**: URL de la API.
