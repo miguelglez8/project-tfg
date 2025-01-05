@@ -1,0 +1,69 @@
+LEEME.txt
+==========
+
+Este archivo proporciona una explicación detallada de la organización y contenido de los directorios presentes en el archivo adjunto.
+
+Directorio raíz del Archivo adjunto
+-----------------------------------
+Contiene los siguientes archivos y carpetas:
+
+- **LEEME.txt**: Este archivo con la descripción de la estructura.
+- **DESPLIEGUE.txt**: Fichero que contiene un breve manual de como desplegar la web.
+- **logo.png**: Imagen con el logo de la aplicación.
+- **TFG.pem**: Clave privada RSA para desplegar en la EC2.
+
+./trabajos-academicos
+---------------------
+Contiene los dos proyectos de la aplicación:
+
+- **frontend**: Proyecto de React (parte del cliente).
+- **backend**: Proyecto de Spring Boot (parte del servidor).
+
+./documentacion
+---------------
+Contiene toda la documentación asociada al proyecto:
+
+- **diagramas**: Diagramas utilizados en la documentación.
+- **planificación**: Archivos empleados para planificar y presupuestar el proyecto (versión inicial y final).
+
+Estructura del directorio "frontend"
+------------------------------------
+Este directorio contiene los archivos y carpetas necesarias para el proyecto de React:
+
+- **package.json y package-lock.json**: Archivos necesarios para la instalación de dependencias.
+- **nginx.conf, postcss.config.js, tailwind.config.js, vite.config.js y cors.json**: Archivos de configuración.
+- **.env**: Variables de entorno necesarias para la ejecución de la aplicación.
+- **.eslintrc.cjs**: Configuración de ESLint.
+- **.gitignore**: Para Git.
+- **Dockerfile**: Dockerización de la aplicación del cliente.
+- **index.html**: Archivo HTML principal.
+- **my-certificate.pem, my-csr.pem y my-private-key.pem**: Archivos de configuración del certificado SSL para HTTPS.
+
+Estructura del directorio "public"
+----------------------------------
+- Contiene todas las imágenes y sonidos de la web.
+
+Estructura del directorio "src"
+-------------------------------
+- **App.jsx**: Gestiona la navegación entre diferentes rutas o páginas de la aplicación.
+- **main.jsx**: Punto de entrada de la aplicación React.
+- **components**: Componentes de la aplicación en JSX.
+- **icons**: Iconos de la aplicación en JSX.
+- **locales**: Textos a internacionalizar (español e inglés).
+- **routes**: Rutas de navegación entre pantallas y llamadas a la API.
+- **services**: Comunicación con servicios externos (Firebase y ZEGOCLOUD) o configuración de librerías.
+- **views**: Interfaces de la aplicación en JSX.
+
+Estructura del directorio "backend"
+-----------------------------------
+Este directorio contiene los archivos y carpetas necesarias para el proyecto de Spring Boot:
+
+- **mvnw, mvnw.cmd y pom.xml**: Archivos necesarios para la instalación de dependencias.
+- **start, token04.iml**: Archivos de configuración.
+- **.gitignore**: Para Git.
+- **Dockerfile**: Dockerización de la aplicación del servidor.
+- **libs**: Bibliotecas externas necesarias para compilar y distribuir.
+- **logs**: Logs de la aplicación organizados por días.
+- **src/main/java**: Ficheros Java con las funcionalidades agrupados en los paquetes correspondientes.
+- **src/test/java**: Ficheros Java de las pruebas unitarias de cada uno de los controladores.
+- **src/main/resources**: Ficheros de configuración de la aplicación (incluye un application.properties y un keystore.p12 para almacenar las claves del certificado SSL).
