@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply box-border;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-sky-600 rounded-xl;
+}
+
+.task > ::-webkit-scrollbar-thumb {
+  @apply bg-sky-600 rounded-xl;
+}
+
+.objective-item {
+  display: flex;
+  align-items: center;
+}
+
+.objective-text {
+  flex: 1;
+}
+
+.objective-checkbox {
+  margin-right: 10px;
+}
+
+.objective-delete-button {
+  margin-left: auto;
+}
+
+body audio {
+  width: 80% !important;
+  height: 50px !important;
+}
