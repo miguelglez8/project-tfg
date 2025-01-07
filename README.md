@@ -41,7 +41,7 @@ Este documento detalla los pasos necesarios para la instalación, configuración
 
 ### Iniciar la aplicación
 
-1. **Base de datos**: Asegurarse de que la base de datos MySQL está preparada y en ejecución.
+1. **Base de datos**: Asegurarse de que la base de datos MySQL está preparada y en ejecución (ya sea en local o en remoto) y los ficheros de configuración tengan los datos necesarios.
 
 2. **Front-end**:
    ```bash
