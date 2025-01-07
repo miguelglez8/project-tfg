@@ -2,7 +2,7 @@
 
 ## Para subir al servidor remoto:
 
-1. Corregir los archivos `.env` en el front-end y `application.properties`.
+1. Corregir los archivos `.env` en el front-end y `application.properties` en el back-end.
 2. Recordar eliminar imágenes y contenedores existentes.
 3. Comandos necesarios para local:
    - Construir la imagen Docker: `docker build`, crea la imagen.
