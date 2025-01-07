@@ -94,4 +94,4 @@ El archivo `application.properties` en `TFG-CoordinacionTrabajosAcademicos/traba
 
 ## Notas adicionales
 
-Es importante tener en cuenta que, aunque la aplicación se ejecuta en local, es necesario disponer de conexión a internet, ya que se utiliza un servidor remoto para almacenar y recuperar ficheros y/o datos.
+Es importante tener en cuenta que, aunque la aplicación se ejecuta en local, es necesario disponer de conexión a internet, ya que se utiliza un servidor remoto para almacenar y recuperar ficheros y/o datos, además de otro para poder comunicarnos mediante llamadas.
