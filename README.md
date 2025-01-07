@@ -1,5 +1,7 @@
 # Plataforma Web para la Coordinación de Trabajos Académicos
 
+<img src="https://github.com/miguelglez8/project-tfg/blob/main/frontend/public/logo.png" width="300">
+
 ## Introducción
 
 Este documento detalla los pasos necesarios para la instalación, configuración y ejecución de la plataforma web diseñada para la coordinación de trabajos académicos. Incluye información técnica relevante sobre los requisitos del sistema, configuración de archivos y otros aspectos clave del despliegue.
