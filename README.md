@@ -59,7 +59,7 @@ Este documento detalla los pasos necesarios para la instalación, configuración
 4. **Navegador**:
    Dirigirse con un navegador con soporte para WebRTC, como Mozilla Firefox o Google Chrome, a la dirección:
    ```
-   localhost:3000
+   http://localhost:3000
    ```
 
 ### Detener la aplicación
@@ -94,5 +94,4 @@ El archivo `application.properties` en `TFG-CoordinacionTrabajosAcademicos/traba
 
 ## Notas adicionales
 
-Para detener la ejecución del sistema, únicamente se deberá parar el proceso que se está ejecutando en las terminales de Visual Studio Code e IntelliJ (o símbolo del sistema).
-Es importante tener en cuenta que, aunque la aplicación se ejecuta en local, es necesario disponer de conexión a internet, ya que se utiliza un servidor remoto para almacenar y recuperar fotografías.
+Es importante tener en cuenta que, aunque la aplicación se ejecuta en local, es necesario disponer de conexión a internet, ya que se utiliza un servidor remoto para almacenar y recuperar ficheros y/o datos.
