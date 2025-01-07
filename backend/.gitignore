@@ -1,0 +1,26 @@
+# Dependencies
+/target/
+
+# Maven
+logs/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Logs
+*.log
+
+# Environment settings
+.env
+
+# Application-specific files
+*.war
+*.jar
