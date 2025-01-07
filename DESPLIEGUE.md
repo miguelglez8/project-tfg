@@ -22,9 +22,9 @@
 ## Para conectarse al servidor remoto (deben de pasarse las dos imágenes):
 
 **DATOS:**
-- Ruta al archivo `.pem`: `C:\Users\migue\Downloads\TFG.pem`  
-- Usuario: `ubuntu`  
-- Dirección IP: `51.20.120.253`
+- Ruta al archivo `.pem` (Este será necesario descargarlo en AWS)  
+- Usuario: `ubuntu` (por lo general)  
+- Dirección IP
 
 1. Primer paso, conectarse por SSH:
    ```bash
