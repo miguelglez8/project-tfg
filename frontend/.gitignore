@@ -12,22 +12,3 @@ build/
 
 # Editor-specific files
 .vscode/
-.idea/
-*.swp
-
-# MacOS files
-.DS_Store
-
-# Linux and macOS thumbnails
-.Trashes
-
-# Coverage directory
-coverage/
-
-# Yarn Integrity
-.yarn-integrity
-
-# npm-debug files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
