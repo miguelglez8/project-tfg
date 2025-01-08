@@ -75,10 +75,20 @@ Para detener el sistema, interrumpir los procesos en las terminales correspondie
 #### Front-end
 Debe de crearse un archivo `.env` en `TFG-CoordinacionTrabajosAcademicos/trabajos-academicos/frontend`, y debe de contener las siguientes configuraciones:
 
-- **VITE_PATH**: Punto de acceso de la aplicación cliente.
-- **VITE_API**: URL de la API.
-- **VITE_FIREBASE_***: Configuraciones para Firebase.
-- **VITE_ZEGOCLOUD_***: Configuraciones para ZEGOCLOUD.
+```env
+VITE_PATH=http://localhost:3000
+VITE_API=http://localhost:8080/api
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+VITE_FIREBASE_DATABASE_URL=your_firebase_database_url
+VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
+VITE_ZEGOCLOUD_APP_ID=your_zegocloud_app_id
+VITE_ZEGOCLOUD_SECRET_KEY=your_zegocloud_secret_key
+```
 
 #### Back-end
 El archivo `application.properties` en `TFG-CoordinacionTrabajosAcademicos/trabajos-academicos/backend/src/main/resources` incluye configuraciones como:
