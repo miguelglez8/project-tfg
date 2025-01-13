@@ -1,4 +1,4 @@
-# Plataforma Web para la Coordinación de Trabajos Académicos
+# Plataforma Web para la Coordinación de Trabajos Académicos · Web App
 
 <img src="https://github.com/miguelglez8/project-tfg/blob/main/frontend/public/logo.png" width="150">
 
