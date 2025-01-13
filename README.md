@@ -1,6 +1,10 @@
 # Plataforma Web para la Coordinación de Trabajos Académicos · Web App
 
-<img src="https://github.com/miguelglez8/project-tfg/blob/main/frontend/public/logo.png" width="150">
+El proyecto tiene como objetivo abordar los problemas de comunicación y la pérdida de información que comúnmente se encuentran al coordinar trabajos académicos, como los Trabajos de Fin de Grado (TFG), a través del correo electrónico. Para resolver esto, se desarrolló una aplicación web que centraliza la gestión de proyectos académicos, ofreciendo funciones como asignación de roles, creación y gestión de TFG, asignación de estudiantes, subida de archivos, chat, videollamadas, gestión de tareas y generación de informes.
+
+La plataforma está diseñada para optimizar la colaboración entre profesores y estudiantes, proporcionando una interfaz intuitiva y aprovechando tecnologías modernas para garantizar eficiencia, escalabilidad y adaptabilidad futura. Esencialmente, sirve como una solución integral para centralizar la información y simplificar la coordinación de proyectos académicos.
+
+<img src="https://github.com/miguelglez8/project-tfg/blob/main/frontend/public/logo.png" width="200">
 
 ## Introducción
 
