@@ -1,4 +1,4 @@
-# Plataforma Web para la Coordinación de Trabajos Académicos · Web App
+# Plataforma Web para la Coordinación de Trabajos Académicos · Web App 
 
 El proyecto tiene como objetivo abordar los problemas de comunicación y la pérdida de información que comúnmente se encuentran al coordinar trabajos académicos, como los Trabajos de Fin de Grado (TFG), a través del correo electrónico. Para resolver esto, se desarrolló una aplicación web que centraliza la gestión de proyectos académicos, ofreciendo funciones como asignación de roles, creación y gestión de TFG, asignación de estudiantes, subida de archivos, chat, videollamadas, gestión de tareas y generación de informes.
 
