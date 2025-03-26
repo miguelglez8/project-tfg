@@ -104,6 +104,36 @@ El archivo `application.properties` en `TFG-CoordinacionTrabajosAcademicos/traba
 - **CORS**: Configuraciones para compartir recursos entre orígenes cruzados.
 - **HTTPS**: Configuración para producción.
 
+### Configuración de HTTPS
+Para habilitar HTTPS en producción, es necesario contar con un archivo `keystore.p12`, que es un almacén de claves que contiene el certificado SSL y la clave privada.
+
+**¿Qué es keytool?**
+`keytool` es una utilidad de línea de comandos incluida en el JDK (Java Development Kit) que permite la creación y gestión de certificados digitales y almacenes de claves.
+
+### Cómo generar un keystore.p12
+Puedes generar un archivo `keystore.p12` usando el siguiente comando:
+
+```bash
+keytool -genkey -alias tomcat -keyalg RSA -keystore keystore.p12 -storetype PKCS12
+```
+
+**Descripción de los parámetros:**
+- `-genkey`: Genera un nuevo par de claves.
+- `-alias tomcat`: Nombre del alias para identificar la clave dentro del almacén.
+- `-keyalg RSA`: Algoritmo RSA para la clave.
+- `-keystore keystore.p12`: Nombre del archivo keystore.
+- `-storetype PKCS12`: Formato del keystore, que es estándar para certificados SSL.
+
+Durante la ejecución del comando, se te pedirá que ingreses información como:
+- Contraseña del keystore.
+- Nombre y apellido.
+- Nombre de la organización.
+- Nombre de la unidad organizativa.
+- Nombre del dominio o dirección IP.
+- País del solicitante.
+
+Una vez creado el `keystore.p12`, actualiza la contraseña en la configuración correspondiente en el archivo `application.properties`.
+
 ---
 
 ## Notas adicionales
