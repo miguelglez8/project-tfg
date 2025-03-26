@@ -21,7 +21,6 @@
 
 ## Para conectarse al servidor remoto (deben de pasarse las dos imágenes):
 
-**DATOS:**
 - Ruta al archivo `.pem` (Este será necesario descargarlo en AWS)  
 - Usuario: `ubuntu` (por lo general)  
 - Dirección IP
